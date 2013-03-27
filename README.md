@@ -37,11 +37,13 @@ android:value="INSERT HERE YOUR API KEY"
 </code></pre>
 
 ###in Activity
-The time refresh:
+The refresh time:
 <pre><code>protected void onResume() {
     super.onResume();
     locationManager.requestLocationUpdates(provider, 1000, 1, this);  
 }
 </code></pre>
 
-
+LICENSE
+===========
+Copyright (c) 2013 Tommaso Ruscica
